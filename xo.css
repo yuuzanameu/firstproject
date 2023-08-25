@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+body{
+    background-color:   #00693E;
+}
+
+
+.heading{
+    padding-left: 34rem;
+    font-style: italic;
+    font-size: large;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    margin: 20px auto; 
+    width: 300px;
+}
+
+.grid-and-object {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between; 
+    width: 90%; 
+}
+
+
+.unclicked{
+    height: 5rem;
+    width: 5rem;
+    font-size: 4rem;
+    background-color: rgb(14, 14, 14);
+    color: azure;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.clicked{
+    height: 5rem;
+    width: 5rem;
+    font-size: 4rem;
+    background-color: rgb(246, 228, 228);
+    color: rgb(8, 8, 8);
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.play{
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 2rem;
+    width: 4rem;
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    background-color: black;
+    color: azure;
+    cursor: pointer; 
+}
+
+
+.winner{
+    font-size: 6rem;
+    padding-left: 33%;
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+
+
